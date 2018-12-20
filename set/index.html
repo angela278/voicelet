@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Voicelet</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="../css/business-casual.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/animate-custom.css"/>
+     <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/metro-uinvert-dock/256/Microphone_1.png"/>
+</head>
+
+<body>
+
+    <div class="brand">Voicelet</div>
+
+    <div class="toggle">
+     <button type="button" class="btn btn-default" id="goNext"><img src="../img/arrow2.png" width="50" height="50"></button>
+                 <button type="button" class="btn btn-default" id="goBack"><img src="../img/arrow.png" width="50" height="50"></button>
+
+
+    </div>
+
+    <div class="box-container">
+
+        <div class="box-a animated">
+            <div class="flip">
+                <div class="card">
+                    <div id="currentCard">
+                        <div class="face front"> </div>
+
+                        <div class="face back"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id = "feedback"></div>
+
+<footer class="footer"><center>Your virtual study buddy.</center></footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../stringdistance.js"></script>
+    <script src ="../search.js"></script>
+    <script src="../cards.js"></script>
+    <script src="../voice.js"></script>
+</body>
+</html>
